@@ -11,7 +11,7 @@ const TextInputExample = () => {
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
         
-        <Text style={styles.label}>Tên đăng nhập:</Text>
+        <Text style={styles.label}>Tên đăng ký:</Text>
         <MyInput
           value={text}
           onChangeText={onChangeText}
