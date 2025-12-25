@@ -3,6 +3,7 @@
     "name": "FE_cold",
     "slug": "FE_cold",
     "version": "1.0.0",
+    "scheme": "FE_cold",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
